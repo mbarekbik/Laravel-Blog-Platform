@@ -1,4 +1,4 @@
-# Laravel-Blog-Website
+# PHP Laravel Blog with Role Management
 
 A straightforward blog page written in PHP/Laravel.
 
@@ -15,25 +15,26 @@ A straightforward blog page written in PHP/Laravel.
 
 ## General Info
 
-The website was built with PHP, MySQL, and Laravel. It allows you to go through every post that is on the main page. You can add comments. You have complete control while logged in as an administrator, including the ability to create, edit, and delete posts, users, and comments, as well as manage roles. There are two positions available: administrator and writer. Default permissions for Writer are: adding or editing owned posts; deleting comments in your posts. Furthermore, you can save posts, continue writing later, and then publish them. Also, you are able to send emails to users after updating their accounts.
+This project is a simple blog platform built using Laravel, MySQL, and PHP. It provides a user-friendly interface with a fully functional admin panel for managing blog posts, comments, and user roles. The platform supports two types of users: Admin and Writer. Admins have full control over the content, users, and roles, while Writers can create, edit, and manage their own posts.
 
-Furthermore, the website is fully responsive.
-
-I tried to add the best protection I could to this website. I'm referring to prohibitions against deleting other people's posts besides the "Admin" account, deleting roles owned by others or the "Admin" role, deleting yourself, and even editing another person's account.
+The system also features email notifications, a responsive design for mobile and desktop devices, and several security measures to ensure safe and smooth operation. Users can comment on posts, and Writers can save drafts, publish articles, and edit or delete their own posts. The blog's frontend is built with Blade templating, and additional JavaScript functionality is added with SweetAlert2 for notifications and FontAwesome for icons.
 
 ![post](https://github.com/Mati822456/Laravel-Blog-Website/assets/103435077/e332038e-05bf-4818-b32d-968a45692d84)
 
 ## Technologies
 
--   Laravel 9.45.1
--   Blade
--   PHP 8.1.7
--   MySQL 8.0.29
--   HTML 5
--   CSS 3
--   JavaScript
--   SweetAlert 2
--   FontAwesome 6.5.1
+This project was built using the following technologies:
+
+Laravel 9.45.1: The PHP framework used for backend development and routing.
+Blade: The templating engine for rendering views in Laravel.
+PHP 8.1.7: The programming language used for building the application.
+MySQL 8.0.29: The database used for storing blog posts, user information, and comments.
+HTML5: The standard markup language for structuring web content.
+CSS3: The styling language used to design the responsive and modern layout.
+JavaScript: Used for adding interactivity and dynamic features to the frontend.
+SweetAlert2: A library for custom alerts and notifications.
+FontAwesome 6.5.1: Used for incorporating icons throughout the application.
+NPM: For managing frontend dependencies and building assets.
 
 ## Setup
 
@@ -97,33 +98,25 @@ Password: writer1234
 
 ## Features
 
-| Name                             | Status               | Date added |
-|----------------------------------|----------------------|------------|
-| Version control of each post     | &#9745; Finished     | 2023-05-10 |
-| Tiles on the home page           | &#9745; Finished     | 2023-12-03 |
-| Improve post creation/editing UI | &#9745; Finished     | 2023-12-06 |
-| Categories                       | &#9745; Finished     | 2023-12-09 |
-| Reading time                     | &#9745; Finished     | 2023-12-21 |
-| Pinned post                      | &#9745; Finished     | 2024-01-01 |
-| Better tiles in history          | &#9745; Finished     | 2024-01-04 |
-| Changelog for posts              | &#9745; Finished     | 2024-01-04 |
-| History post comparison          | &#9745; Finished     | 2024-01-10 |
-| Remove jQuery                    | &#9745; Finished     | 2024-01-11 |
-| Dark mode                        | &#9745; Finished     | 2024-01-15 |
-| More filtering                   | &#9745; Finished     | 2024-01-18 |
-| Auto-save editing post           | &#9745; Finished     | 2024-01-23 |
-| Observer on main page            | &#9745; Finished     | 2024-01-28 |
-| Super-permissions                | &#9745; Finished     | 2024-02-05 |
-| Image Browser                    | &#9745; Finished     | 2024-02-09 |
-| Enhance image selection          | &#9745; Finished     | 2024-02-10 |
-| Notifications                    | &#9745; Finished     | 2024-02-12 |
+| Name                             
+|----------------------------------
+| Version control of each post     
+| Tiles on the home page           
+| Improve post creation/editing UI 
+| Categories                       
+| Reading time                     
+| Pinned post                      
+| Better tiles in history          
+| Changelog for posts              
+| History post comparison        
+| Remove jQuery                   
+| Dark mode                        
+| More filtering                   
+| Auto-save editing post           
+| Observer on main page            
+| Super-permissions                
+| Image Browser                    
+| Enhance image selection          
+| Notifications                    
 
-## Acknowledgements
 
-Thanks <a href="https://www.flaticon.com/free-icons/user" title="user icons">User icons created by kmg design - Flaticon</a> for the user profile icon</br>
-Thanks <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a> for the envelope icon on the contact page</br>
-Thanks <a href="https://www.flaticon.com/free-icons/blog" title="blog icons">Blog icons created by zero_wing - Flaticon</a> for the blog icon as favicon</br>
-
-## Contact
-
-Feel free to contact me via email mateusz.zaborski1@gmail.com. :D
